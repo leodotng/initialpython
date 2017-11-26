@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CertInstallCommand	../get-pip.py	/^    class CertInstallCommand(InstallCommand):$/;"	kind:class	line:87
+Flask	../hello.py	/^from flask import Flask$/;"	kind:namespace	line:1
+InstallCommand	../get-pip.py	/^    from pip.commands.install import InstallCommand$/;"	kind:namespace	line:83
+InstallRequirement	../get-pip.py	/^    from pip.req import InstallRequirement$/;"	kind:namespace	line:84
+_b85alphabet	../get-pip.py	/^    _b85alphabet = (b"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"$/;"	kind:variable	line:43
+app	../hello.py	/^app = Flask(__name__)$/;"	kind:variable	line:2
+args	../get-pip.py	/^        args = sys.argv[1:]$/;"	kind:variable	line:108
+b85decode	../get-pip.py	/^    def b85decode(b):$/;"	kind:function	line:46
+b85decode	../get-pip.py	/^    from base64 import b85decode$/;"	kind:namespace	line:41
+bootstrap	../get-pip.py	/^def bootstrap(tmpdir=None):$/;"	kind:function	line:80
+cert_path	../get-pip.py	/^        cert_path = os.path.join(tmpdir, "cacert.pem")$/;"	kind:variable	line:166
+get-pip.py	../get-pip.py	1;"	kind:file	line:1
+hello	../hello.py	/^def hello():$/;"	kind:function	line:5
+hello.py	../hello.py	1;"	kind:file	line:1
+implicit_setuptools	../get-pip.py	/^        implicit_setuptools = False$/;"	kind:variable	line:106
+implicit_wheel	../get-pip.py	/^        implicit_wheel = False$/;"	kind:variable	line:113
+iterbytes	../get-pip.py	/^    def iterbytes(buf):$/;"	kind:function	line:37
+iterbytes	../get-pip.py	/^    iterbytes = iter$/;"	kind:variable	line:35
+main	../get-pip.py	/^def main():$/;"	kind:function	line:179
+noqa	../get-pip.py	/^            import setuptools  # noqa$/;"	kind:namespace	line:119
+noqa	../get-pip.py	/^            import wheel  # noqa$/;"	kind:namespace	line:125
+os	../get-pip.py	/^import os.path$/;"	kind:namespace	line:23
+parse_args	../get-pip.py	/^        def parse_args(self, args):$/;"	kind:member	line:88
+path	../get-pip.py	/^import os.path$/;"	kind:namespace	line:23
+pip	../get-pip.py	/^    import pip$/;"	kind:namespace	line:82
+pkgutil	../get-pip.py	/^import pkgutil$/;"	kind:namespace	line:24
+script.py	../script.py	1;"	kind:file	line:1
+setuptools	../get-pip.py	/^            import setuptools  # noqa$/;"	kind:namespace	line:119
+shutil	../get-pip.py	/^import shutil$/;"	kind:namespace	line:25
+struct	../get-pip.py	/^import struct$/;"	kind:namespace	line:27
+sys	../get-pip.py	/^import sys$/;"	kind:namespace	line:26
+tempfile	../get-pip.py	/^import tempfile$/;"	kind:namespace	line:28
+wheel	../get-pip.py	/^            import wheel  # noqa$/;"	kind:namespace	line:125
